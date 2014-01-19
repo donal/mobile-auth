@@ -13,9 +13,9 @@ class TokenMiddleware
 
     # valid = true
     # if env.include?('HTTP_AUTHORIZATION')
-    #   # TODO extract params and check that timestamp, nonce, udid are there
-    #   # (signature and consumer_key may also be passed) and there are no
-    #   # additional fields
+    #   # TODO extract params and check that timestamp, nonce, udid and
+    #   # signature are there (consumer_key may also be passed) and there are
+    #   # no additional fields
     #   # then store in:
     #   env['auth_params'] = {}
     # else

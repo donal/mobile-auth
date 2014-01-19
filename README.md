@@ -13,7 +13,7 @@ Mobile auth in middleware
 ## CURL
 
 `curl -v -G http://localhost:9991`  
-`curl -v -G -d "msg=hello" localhost:9993/stuff`  
+`curl -v -G -d "msg=hello" localhost:9992/stuff`  
 `curl -v -d "username=user&password=secret" http://localhost:9993/session`  
 ```
 curl -v -d "username=user&password=secret" \

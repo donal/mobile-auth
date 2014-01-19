@@ -7,6 +7,7 @@ class MiddlewareTwo
 
   def call(env)
     puts "middleware_two"
+    # p env['params']
     # env["params"]["msg"] = "TWO!" if env["params"]["msg"].nil?
 
     status, headers, bodies = @app.call(env)

@@ -1,0 +1,10 @@
+# Logfile created on 2014-01-18 00:47:02 +0800 by logger.rb/41954
+I, [2014-01-18T00:47:02.099937 #43304]  INFO -- : 0:  rack (1.5.2) from /Users/donal/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-18T00:47:02.100738 #43304]  INFO -- : 0:  bundler (1.5.1) from /Users/donal/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
+I, [2014-01-18T01:01:52.444757 #44624]  INFO -- : 0:  rack (1.5.2) from /Users/donal/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-18T01:01:56.511616 #44624]  INFO -- : 0:  tins (0.13.1) from /Users/donal/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/tins-0.13.1.gemspec
+I, [2014-01-18T01:02:09.798986 #44624]  INFO -- : 0:  term-ansicolor (1.2.2) from /Users/donal/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/term-ansicolor-1.2.2.gemspec
+I, [2014-01-18T01:02:13.014587 #44624]  INFO -- : 0:  rack-colorized_logger (1.0.4) from /Users/donal/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-colorized_logger-1.0.4.gemspec
+I, [2014-01-18T01:02:13.015322 #44624]  INFO -- : 0:  bundler (1.5.1) from /Users/donal/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
+I, [2014-01-18T01:10:21.080541 #45053]  INFO -- : 0:  rack (1.5.2) from /Users/donal/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-18T01:10:21.081404 #45053]  INFO -- : 0:  bundler (1.5.1) from /Users/donal/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec

@@ -14,6 +14,7 @@ class ConsumerMiddleware
     #   # get the consumer_key from env['auth_params']
     #   # (it must be set at this point)
     #   # lookup user using consumer_key and load into env['user']
+    #   valid = false
     # end
 
     # if valid

@@ -11,18 +11,20 @@ class PasswordMiddleware
     # p env['params']
 
     # do check for password here
-    # valid = true
-    # if env['REQUEST_METHOD'] == 'POST' && path = env['PATH_INFO'].match(/\/(session|users)/)
+    # valid = if env['REQUEST_METHOD'] == 'POST' && path = env['PATH_INFO'].match(/\/(session|users)/)
     #   # TODO check that username and password exist (you could adjust the
     #   # status message below if they are missing)
     #   username = env['params']['username']
     #   password = env['params']['password']
-    #   valid = false
+    #   return false if (username.nil? || password.nil?)
     #   if path.to_s == '/session'
     #     # TODO try to login user with username/password
     #   elsif path.to_s == '/users'
     #     # TODO try to create user with username/password
     #   end
+    #   true
+    # else
+    #   false
     # end
 
     # if valid

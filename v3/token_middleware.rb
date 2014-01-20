@@ -10,15 +10,15 @@ class TokenMiddleware
     request = Rack::Request.new env
     env['params'] = request.params
 
-    # valid = true
-    # if env.include?('HTTP_AUTHORIZATION')
+    # valid = if env.include?('HTTP_AUTHORIZATION')
     #   # TODO extract params and check that timestamp, nonce, udid and
     #   # signature are there (consumer_key may also be passed) and there are
     #   # no additional fields
     #   # then store in:
     #   env['auth_params'] = {}
+    #   true
     # else
-    #   valid = false
+    #   false
     # end
 
     # if valid

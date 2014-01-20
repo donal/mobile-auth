@@ -9,7 +9,6 @@ class TokenMiddleware
     puts "token_middleware"
     request = Rack::Request.new env
     env['params'] = request.params
-    p env
 
     # valid = true
     # if env.include?('HTTP_AUTHORIZATION')

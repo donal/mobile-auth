@@ -9,6 +9,7 @@ class MiddlewareOne
     puts "middleware_one"
     request = Rack::Request.new env
     env['params'] = request.params
+    p env
 
     status, headers, bodies = @app.call(env)
 
